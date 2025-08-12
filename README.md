@@ -1,7 +1,7 @@
 # Gemini API 负载均衡器 (gemini-balance-do)
 
 > 参考项目：https://github.com/tech-shrimp/gemini-balance-lite ，基于爬爬虾的项目改造了一下，更适合在 cloudflare worker 中使用，即使是广东用户也不担心，哪怕你请求的 worker 节点在香港，最后请求也会路由到美国再向 Gemini 发起请求！
-
+ 
 这是一个部署在 Cloudflare Workers 上的 Gemini API 负载均衡器和代理服务，使用了 Durable Objects 来存储和管理 API 密钥。
 
 Youtube: https://youtu.be/_5a6HfL2wn4
